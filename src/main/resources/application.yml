@@ -8,6 +8,6 @@ spring:
           uri: https://github.com/WebCrew-Funda/config-data.git
           username: ${GIT_USER}
           password: ${GIT_PASSWORD}
-          default-label: "master"
-          searchPaths: users-service
+          default-label: "main"
+          searchPaths: users-service,payments-service
           cloneOnStart: true
